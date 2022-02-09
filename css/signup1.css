@@ -1,0 +1,48 @@
+
+
+.format
+{
+
+width: 500px;
+height:350px;
+top: 300px;
+background-color: rgb(85, 159, 219);
+position: relative;
+left: 750px;
+box-shadow: 0px 0px 10px 0px ;
+
+
+}
+body
+{
+  background-image: url(../images/33103-doctor-wallpaper.jpg);  
+}
+ .centre
+ {   width: 50px;
+     height: 500px;
+     position: relative;
+     left: 800px;
+     top: 200px;
+     margin-left: 100px;
+ }
+ .edit
+ {
+  position: relative;
+  left: 850px;
+  top: 250px;
+
+ }
+ @media screen and (max-width:768px) {
+     .format
+     {
+         width: 100%;
+         float: left;
+     }
+ }
+ @media screen and (max-width:768px) {
+    img
+    {
+        width: 100%;
+       height: auto;
+    }
+}

@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/signup1.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+   <header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>  
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Delete An Appointment</a>
+                </li>  
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="../html/Home.html" role="button"  style="color: darkgoldenrod;">Logout</a>
+                 
+                </li>
+              </ul>
+           
+            </div>
+          </div>
+        </nav>
+
+
+  </header>
+   <div class="format">
+      <table>
+         <h1 style="text-align: center;">Request an Appointment</h1>
+         <form onsubmit="edit" id ="form1">
+         <tr>
+             <br>
+                <td >Name </td> 
+                <td ><input type="text" id="name"></td>
+          </tr>
+         
+         <tr>
+            <td>Mob No</td>
+            <td > <input type="text" id="mobno"></td>
+         </tr>
+         <tr>
+            <td>Doctor</td>
+            <td > <input type="text" id="doctor"></td>
+         </tr>
+         <tr>
+            <td>Date Of Appointment</td>
+            <td > <input type="date" id="date"></td>
+         </tr>
+         <tr>
+            <td>Time</td>
+            <td > <input type="time"id="time"></td>
+         </tr>
+         <tr>
+            <td>symptom</td>
+            <td > <input type="text" id="symptom"></td>
+         </tr>
+       
+</table>
+<br>
+      
+   </div> <br>
+   <div class="centre"><button type="submit" class="btnz btn-dark" id='mybtn'>Submit</button>
+     <a href="../html/edit.html"><button type="button" class="btn4 btn-dark" id='editme' >Edit</button></a> 
+   </div>
+</form>
+    
+</body>
+</html>

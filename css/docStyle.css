@@ -1,0 +1,70 @@
+
+li{  
+    display: inline;
+    position: relative;
+     
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    margin: 0%;
+    padding-right: 20px;
+    
+    
+}
+a{  position: relative;
+
+    color: black;
+    font-weight: 600;
+}
+
+body{
+    height: 100%; 
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header
+{
+background-color: rgb(218, 146, 120);
+height: 80px;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+position: relative;
+left: 40px;
+
+}
+.container-fluid
+{
+  background-color: rgb(50, 87, 87);
+  background: transparent;
+  
+}
+.dropdown
+{
+    position: relative;
+    
+}
+
+.dropdown-menu
+{
+    background-color: rgb(63, 146, 172);
+    background: transparent;
+    position: relative;
+    right: 500px;
+}
+footer
+{
+  text-align: center;
+  background-color: darkgrey;
+  height:50px;
+}
+@media screen and (max-width :100px)
+ {
+    footer
+    {
+        width: 100px;
+    }
+}
+
+
+
+

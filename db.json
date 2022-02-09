@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "username": "aabhas",
+      "password": "1234",
+      "fname": "Aabhas",
+      "lname": "Thakur",
+      "date": "1993-01-31",
+      "id": 2
+    },
+    {
+      "username": "saurabh",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "username": "dsd",
+      "password": "456",
+      "fname": "ana",
+      "lname": "jais",
+      "date": "2022-02-05",
+      "id": 4
+    }
+  ],
+  "appts": [
+    {
+      "name": "aabhas",
+      "mobno": "97564825361",
+      "dt": "2022-02-18",
+      "tm": "12:46",
+      "symptom": "some",
+      "doctor": "Dr. Kumar",
+      "id": 6
+    },
+    {
+      "name": "anamika",
+      "mobno": "45435345",
+      "dt": "2022-02-04",
+      "tm": "13:53",
+      "symptom": "fever",
+      "doctor": "fdfd",
+      "id": 7
+    },
+    {
+      "name": "ana",
+      "mobno": "4353453",
+      "dt": "2022-02-03",
+      "tm": "14:57",
+      "symptom": "fever",
+      "doctor": "sdfdf",
+      "id": 8
+    },
+    {
+      "name": "akshay",
+      "mobno": "123456",
+      "dt": "2022-02-10",
+      "tm": "08:11",
+      "symptom": "Fever",
+      "doctor": "Dr Sharma",
+      "id": 9
+    }
+  ],
+  "doctor": [
+    {
+      "username": "Sofia",
+      "password": "1234",
+      "fname": "Sofia",
+      "lname": "Thakur",
+      "date": "1993-01-31",
+      "id": 2
+    },
+    {
+      "username": "Hansraj",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "username": "Amit",
+      "password": "1234",
+      "fname": "ana",
+      "lname": "jais",
+      "date": "2022-02-05",
+      "id": 4
+    },
+    {
+      "username": "Amit",
+      "password": "1234",
+      "fname": "ana",
+      "lname": "jais",
+      "date": "2022-02-05",
+      "id": 4
+    }
+  ]
+}
